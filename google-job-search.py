@@ -1,7 +1,7 @@
 # @author: Josh
 # data: 12/11/24
 # Usage: python google-job-search.py jobtitle 
-# this script once running, continues to run and returns the new results every 24hrs
+# this script once running, continues to run and returns the new results every 24hrs if enabled
 # Requirements: requests, json
 
 import requests
