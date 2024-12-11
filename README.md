@@ -2,6 +2,8 @@
 
 This project provides a Python script to search for job postings using Google's Custom Search JSON API. The results can be filtered and exported to a CSV file for further use.
 
+This is a little ugly but it was a first pass that I threw together as fast as possible so I'm well aware that the code is ugly but it works. 
+
 ## Features
 
 - Search for job postings based on a query and location.
