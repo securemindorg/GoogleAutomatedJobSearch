@@ -54,7 +54,7 @@ This project provides a Python script to search for job postings using Google's 
 
 2. Run the script:
    ```bash
-   python google_jobs_search.py
+   python google-job-search.py jobtitle 
    ```
 
 3. The script will:
@@ -66,9 +66,10 @@ This project provides a Python script to search for job postings using Google's 
 
 ### Modify Search Parameters
 Update the following variables in the script to customize the job search:
-- `search_query`: Specify the job title or keywords.
-- `job_location`: Specify the location for the job search.
-- `additional_filters`: Add filters such as `dateRestrict` to narrow results.
+- joblocation = "New York, NY"
+- daterange = "m1" # month = m, day = d
+- googleapikey = "xxxxxxxx" # follow the readme to get this
+- googlesearchid = "xxxxxxxxx"
 
 ### Change Output File Name
 Update the `file_name` parameter in the `export_jobs_to_csv` function to change the name of the output CSV file.
